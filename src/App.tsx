@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { MyRouter } from "./routers";
 
 const App = () => {
   return (
-    <div>Hello World</div>
-  )
-}
+    <div className="text-3xl font-bold underline">
+      <MyRouter />
+    </div>
+  );
+};
 
-export default App
+export default App;
